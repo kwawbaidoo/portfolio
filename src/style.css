@@ -1,0 +1,7 @@
+.gradient-border {
+    border-width: 1px;
+    border-style: solid;
+    border-image-source: linear-gradient(321.62deg, #13ADC7 9.27%, #6978D1 59.96%, #945DD6 85.3%);
+    border-image-slice: 1;
+    border-radius: 25px;
+  }

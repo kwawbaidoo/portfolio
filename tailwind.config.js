@@ -14,6 +14,16 @@ module.exports = {
       boxShadow:{
         'neon-button': '0px 10px 30px 0px #00B2FF59'
       },
+     borderColor:{
+      'gradient-border':'transparent',
+     },
+     borderWidth:{
+      1:'1px',
+     },
+
+     borderRadius:{
+      1: '25px'
+     }
     },
   },
   plugins: [],
