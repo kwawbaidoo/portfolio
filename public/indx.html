@@ -8,11 +8,11 @@
     <title>Portfolio</title>
   </head>
   <body class=" flex flex-col">
-    <main class="bg-back flex flex-col items-center p-16">
+    <main class="bg-back flex flex-col items-center xl:p-16 p-8">
     <!-- Navigation -->
     <nav class="flex justify-between items-center p-6 text-white border w-full xl:max-w-[1157px]">
       <div class="text-xl font-bold">F.B Portfolio</div>
-      <ul class="flex space-x-8">
+      <ul class="hidden xl:flex space-x-8">
         <li><a href="#" class="hover:text-blue-400">Projects</a></li>
         <li><a href="#" class="hover:text-blue-400">Technologies</a></li>
         <li><a href="#" class="hover:text-blue-400">About me</a></li>
@@ -25,15 +25,15 @@
     </nav>
 
     <!-- Header Section -->
-    <header class="flex justify-between p-6 mt-10 w-full xl:max-w-[1157px]  border">
-      <div class=" w-[600px] flex flex-col gap-6">
-        <h1 class="text-5xl font-bold text-white">
+    <header class="xl:flex gap-10 xl:justify-between p-6 mt-10 w-full xl:max-w-[1157px]  border">
+      <div class=" max-w-[600px] flex flex-col gap-6">
+        <h1 class="xl:text-5xl text-2xl font-bold text-white">
           Hello, I'm Francis Baidoo,
           
         </h1>
-        <span class="text-green-700 text-5xl"
+        <span class="text-green-700 xl:text-5xl text-2xl" 
             >frontend developer</span>
-        <p class="mt-4 text-gray-400 leading-8">
+        <p class="mt-4 text-gray-400 leading-8 xl:text-lg text-sm text-wrap">
           Former digital-marketing specialist, seeking to apply competent
           development skills with focus on collaboration, communication, and
           passion
@@ -44,7 +44,7 @@
           Download CV
         </button>
       </div>
-      <img class="w-72 h-72 rounded-full" src="../assets/Kwaw.jpeg" alt="" />
+      <img class="xl:w-72 xl:h-72 w-52 h-52 rounded-full mt-10" src="../assets/Kwaw.jpeg" alt="" />
     </header>
 
     <!-- Projects Section -->
@@ -52,8 +52,8 @@
       <h2 class="text-3xl font-bold text-white">Projects</h2>
       <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 mt-8">
         <!-- Project Card 1 -->
-        <div class="bg-back p-12 rounded-3xl border border-indigo-600">
-          <img src="../assets/write.jpg" alt="Project 1" class="rounded-t-lg w-[480px]" />
+        <div class="bg-back xl:p-12 p-9 rounded-3xl border border-indigo-600">
+          <img src="../assets/write.jpg" alt="Project 1" class="rounded-t-lg w-64 xl:w-[480px]" />
          <div class="flex flex-col gap-4 mt-12 ">
           <h3 class="text-xl font-bold text-white">Furniture store landing page</h3>
           <p class="text-gray-400 leading-6">
@@ -63,18 +63,18 @@
          </div>
           <div class="mt-24 flex gap-4">
             <button
-              class="bg-bg-gradient hover:bg-blue-600 text-white px-4 py-4 w-[200px] rounded-full"
+              class="bg-bg-gradient hover:bg-blue-600 text-white px- py-1 xl:py-4 w-36 xl:w-[200px] rounded-full"
             >
               Live preview
             </button>
             <button
-              class="bg-transparent hover:bg-gray-600 text-white px-4 py-4 w-[255px] rounded-full border"
+              class="bg-transparent hover:bg-gray-600 text-white px-4 py-4 w-24 xl:w-[255px] rounded-full border"
             >
               Check on GitHub
             </button>
           </div>
         </div>
-        <div class="bg-back p-12 rounded-3xl border border-indigo-600">
+        <div class="bg-back p-12 rounded-3xl border border-indigo-600 flex flex-col items-center">
           <img src="../assets/write.jpg" alt="Project 1" class="rounded-t-lg w-[480px]" />
          <div class="flex flex-col gap-4 mt-12 ">
           <h3 class="text-xl font-bold text-white">Furniture store landing page</h3>
