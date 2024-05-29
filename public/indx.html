@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="./tailwind.css">
     <title>Portfolio</title>
   </head>
-  <body class="bg-gray-900 flex flex-col">
-    <main class="flex flex-col items-center p-16 gap-16 border">
+  <body class=" flex flex-col">
+    <main class="bg-back flex flex-col items-center p-16">
     <!-- Navigation -->
-    <nav class="flex gap-80 justify-around items-center p-6 text-white border">
+    <nav class="flex justify-between items-center p-6 text-white border w-full xl:max-w-[1157px]">
       <div class="text-xl font-bold">F.B Portfolio</div>
       <ul class="flex space-x-8">
         <li><a href="#" class="hover:text-blue-400">Projects</a></li>
@@ -24,8 +24,8 @@
     </nav>
 
     <!-- Header Section -->
-    <header class="flex -center mt-10 w-full xl:max-w-[1170px] gap-44 border">
-      <div class="border w-[600px] flex flex-col gap-10">
+    <header class="flex justify-between p-6 mt-10 w-full xl:max-w-[1157px]  border">
+      <div class=" w-[600px] flex flex-col gap-6">
         <h1 class="text-5xl font-bold text-white">
           Hello, I'm Francis Baidoo,
           
@@ -38,7 +38,7 @@
           passion
         </p>
         <button
-          class="mt-6 px-6 py-3 bg-bg-gradient hover:bg-blue-600 w-48 text-white rounded-full shadow-lg"
+          class="mt-6 px-12 py-4 bg-bg-gradient hover:bg-blue-600 w-[226px] shadow-neon-button text-white text-lg rounded-full"
         >
           Download CV
         </button>
@@ -47,11 +47,11 @@
     </header>
 
     <!-- Projects Section -->
-    <section class="mt-16">
-      <h2 class="text-3xl font-bold text-center">Projects</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 px-4">
+    <section class="mt-16 w-full xl:max-w-[1157px] border">
+      <h2 class="text-3xl font-bold text-white">Projects</h2>
+      <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 mt-8 px-4">
         <!-- Project Card 1 -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <div class="bg-back p-6 rounded-lg shadow-lg">
           <img src="project1.jpg" alt="Project 1" class="rounded-t-lg" />
           <h3 class="mt-4 text-xl font-bold">Furniture store landing page</h3>
           <p class="text-gray-400">
