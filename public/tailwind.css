@@ -595,6 +595,18 @@ video {
   margin-top: 2rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1094,6 +1106,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -1116,6 +1132,14 @@ video {
 
   .xl\:w-\[255px\] {
     width: 255px;
+  }
+
+  .xl\:w-\[210px\] {
+    width: 210px;
+  }
+
+  .xl\:w-\[215px\] {
+    width: 215px;
   }
 
   .xl\:max-w-\[1157px\] {
@@ -1154,6 +1178,21 @@ video {
   .xl\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .xl\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .xl\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .xl\:text-5xl {
