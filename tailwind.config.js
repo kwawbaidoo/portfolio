@@ -22,7 +22,7 @@ module.exports = {
      },
 
      borderRadius:{
-      1: '25px'
+      '25px': '25px'
      }
     },
   },
