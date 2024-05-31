@@ -8,10 +8,10 @@
     <title>Portfolio</title>
   </head>
   <body class="flex flex-col">
-    <main class="bg-back flex flex-col items-center xl:p-16 p-8">
+    <main class="bg-back flex flex-col items-center ">
       <!-- Navigation -->
       <nav
-        class="flex justify-between items-center p-6 text-white w-full xl:max-w-[1157px] border "
+        class="flex justify-between items-center p-6 text-white w-full xl:max-w-[1157px] fixed z-50 top-0 shadow-xl bg-back "
       >
         <div class="text-xl font-bold mr-">F.B Portfolio</div>
         <ul class="hidden xl:flex space-x-8 mr-">
@@ -28,10 +28,10 @@
 
       <!-- Header Section -->
       <header
-        class="xl:flex gap-40 xl:justify-between mt-28 w-full xl:max-w-[1157px] border"
+        class="xl:flex gap-40 xl:justify-between mt-28 w-full xl:max-w-[1157px] "
       >
         <div class=" flex flex-col gap-6">
-          <div class="border mt-11  flex flex-col gap-6">
+          <div class=" mt-11 ml-6  flex flex-col gap-6">
             <h1 class="xl:text-5xl text-2xl font-bold text-white">
               Hello, I'm Francis Baidoo,
             </h1>
@@ -39,8 +39,8 @@
               >frontend developer</span>
           </div>
           
-          <div class="xl:max-w-[700px] ml-6">
-            <p class="mt-4 text-gray-400 leading-8 xl:text-lg text-sm border">
+          <div class="xl:max-w-[630px] ml-6">
+            <p class="mt-4 text-gray-400 leading-8 xl:text-lg text-sm ">
               Former digital-marketing specialist, seeking to apply competent
               development skills with focus on collaboration, communication, and
               passion
@@ -53,14 +53,14 @@
           </button>
         </div>
         <img
-          class=" xl:w-80 xl:h-64 w-52 h-52 rounded-full "
+          class=" w-[210px] h-72  rounded-bl-3xl rounded-tr-3xl "
           src="../assets/Kwaw.jpeg"
           alt=""
         />
       </header>
 
       <!-- Projects Section -->
-      <section class="mt-36 border w-full xl:max-w-[1157px]">
+      <section class="mt-36  w-full xl:max-w-[1157px]">
         <h2 class="text-3xl font-bold text-white">Projects</h2>
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 mt-8">
           <!-- Project Card 1 -->
@@ -95,7 +95,7 @@
             </button>
           </div>
         </div>
-
+        <!-- Project Card 2 -->
         <div
         class="bg-back rounded-3xl border border-indigo-600 p-11 gap-11  xl:flex flex-col w-full xl:max-w-[570px] h- i"
       >
@@ -126,7 +126,7 @@
           </button>
         </div>
       </div>
-
+      <!-- Project Card 3 -->
       <div
       class="bg-back rounded-3xl border border-indigo-600 p-11 gap-11  xl:flex flex-col w-full xl:max-w-[570px] h- i"
     >
@@ -157,7 +157,7 @@
         </button>
       </div>
     </div>
-
+    <!-- Project Card 4 -->
     <div
     class="bg-back rounded-3xl border border-indigo-600 p-11 gap-11  xl:flex flex-col w-full xl:max-w-[570px] h- i"
   >
@@ -189,9 +189,9 @@
     </div>
   </div>
 
-          <!-- Repeat similar blocks for other projects -->
         </div>
       </section>
+      <!-- End of projects -->
 
       <!-- Technologies Section -->
       <section class="mt-16 px-4">
@@ -200,15 +200,7 @@
           <!-- Technology 1 -->
           <div class="flex justify-between items-center">
             <span class="text-lg">Html</span>
-            <div
-              class="w-full bg-gray-700 h-4 mx-4 rounded-full overflow-hidden"
-            >
-              <div
-                class="bg-gradient-to-r from-blue-500 to-purple-500 h-full rounded-full"
-                style="width: 90%"
-              ></div>
-            </div>
-            <span>Advanced</span>
+            
           </div>
           <!-- Repeat similar blocks for other technologies -->
         </div>
